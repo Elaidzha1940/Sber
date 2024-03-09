@@ -10,7 +10,7 @@
 import UIKit
 
 class ButtonCell: UICollectionViewCell {
-    //MARK: IBOutlets
+    //MARK: - IBOutlets
     @IBOutlet private var topButton: UIButton!
     @IBOutlet private var bottomButton: UIButton!
     
@@ -18,6 +18,13 @@ class ButtonCell: UICollectionViewCell {
     func configure(topImage: UIImage?, bottomImage: UIImage?) {
         topButton.setImage(topImage, for: .normal)
         bottomButton.setImage(bottomImage, for: .normal)
+    }
+    
+    //MARK: - View lifecycle
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        topButton.layer.cornerRadius = 15
+        bottomButton.layer.cornerRadius = 15
     }
 }
 

@@ -60,7 +60,6 @@
 		E4A47C902B9C726E00578D63 /* Sber */ = {
 			isa = PBXGroup;
 			children = (
-				E4A47CA52B9C7B9100578D63 /* Cells */,
 				E4A47C912B9C726E00578D63 /* AppDelegate.swift */,
 				E4A47C932B9C726E00578D63 /* SceneDelegate.swift */,
 				E4A47C952B9C726E00578D63 /* ViewController.swift */,
@@ -68,6 +67,7 @@
 				E4A47C9A2B9C726E00578D63 /* Assets.xcassets */,
 				E4A47C9C2B9C726E00578D63 /* LaunchScreen.storyboard */,
 				E4A47C9F2B9C726E00578D63 /* Info.plist */,
+				E4A47CA52B9C7B9100578D63 /* Cells */,
 			);
 			path = Sber;
 			sourceTree = "<group>";
