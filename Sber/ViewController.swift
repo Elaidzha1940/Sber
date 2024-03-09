@@ -1,19 +1,30 @@
+//  /*
 //
-//  ViewController.swift
-//  Sber
+//  Project: Sber
+//  File: ViewController.swift
+//  Created by: Elaidzha Shchukin.
+//  Date: 09.03.202
 //
-//  Created by Elaidzha Shchukin on 09.03.2024.
-//
+//  */
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    //MARK: IBOutlets
+    @IBOutlet private var collectionView: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        collectionView.dataSource = self
     }
-
-
 }
 
+extension ViewController: UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        10
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+    }
+}
