@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.dataSource = self
+        let buttonCellNib = UINib(data: ButtonCell, bundle: nil)
+        
     }
 }
 
