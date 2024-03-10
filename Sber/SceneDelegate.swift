@@ -3,7 +3,7 @@
 //  Project: Sber
 //  File: SceneDelegate.swift
 //  Created by: Elaidzha Shchukin.
-//  Date: 09.03.202
+//  Date: 09.03.2024
 //
 //  */
 
