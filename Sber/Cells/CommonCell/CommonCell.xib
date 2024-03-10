@@ -19,7 +19,7 @@
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <point key="canvasLocation" x="274" y="30"/>
         </view>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="I0j-nV-fep">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="I0j-nV-fep" customClass="CommonCell" customModule="Sber" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="tqE-Wa-U8q">
@@ -65,6 +65,11 @@
                     <constraint firstAttribute="trailing" secondItem="g6H-DL-c9I" secondAttribute="trailing" constant="10" id="yfK-zC-blW"/>
                 </constraints>
             </collectionViewCellContentView>
+            <connections>
+                <outlet property="iconImageView" destination="ivS-Ut-rJH" id="rPK-2v-9mQ"/>
+                <outlet property="textLabel" destination="xMv-Wp-XNs" id="u9a-yJ-VK7"/>
+                <outlet property="xmarButton" destination="g6H-DL-c9I" id="Qod-iA-3qk"/>
+            </connections>
             <point key="canvasLocation" x="259.5419847328244" y="-42.253521126760567"/>
         </collectionViewCell>
     </objects>
