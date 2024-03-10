@@ -1,6 +1,8 @@
 Sber.
 =====
-https://github.com/Elaidzha1940/Sber/assets/64445918/8c9a0356-6202-4ff2-8de3-9a34fdabbc5f
+
+https://github.com/Elaidzha1940/Sber/assets/64445918/54ffb67e-06df-437a-91af-a79a8ec99584
+
 -----
 
 CollectionView utilizes UIKit with xib files for elegant cell customization
