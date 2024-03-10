@@ -23,8 +23,8 @@ class ButtonCell: UICollectionViewCell {
     //MARK: - View lifecycle
     override func awakeFromNib() {
         super.awakeFromNib()
-        topButton.layer.cornerRadius = 15
-        bottomButton.layer.cornerRadius = 15
+        topButton.layer.cornerRadius = 16
+        bottomButton.layer.cornerRadius = 16
     }
 }
 
