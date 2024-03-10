@@ -15,6 +15,7 @@
 		E4A47C9E2B9C726E00578D63 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E4A47C9D2B9C726E00578D63 /* Base */; };
 		E4A47CA92B9C7BDF00578D63 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4A47CA82B9C7BDF00578D63 /* ButtonCell.xib */; };
 		E4A47CAB2B9C849600578D63 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A47CAA2B9C849600578D63 /* ButtonCell.swift */; };
+		E4B3CEB42B9DD5620015869A /* CommonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4B3CEB32B9DD5620015869A /* CommonCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E4A47C9F2B9C726E00578D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4A47CA82B9C7BDF00578D63 /* ButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
 		E4A47CAA2B9C849600578D63 /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		E4B3CEB32B9DD5620015869A /* CommonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		E4A47CA72B9C7BB600578D63 /* CommonCell */ = {
 			isa = PBXGroup;
 			children = (
+				E4B3CEB32B9DD5620015869A /* CommonCell.xib */,
 			);
 			path = CommonCell;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				E4A47C9E2B9C726E00578D63 /* Base in Resources */,
 				E4A47C992B9C726E00578D63 /* Base in Resources */,
 				E4A47CA92B9C7BDF00578D63 /* ButtonCell.xib in Resources */,
+				E4B3CEB42B9DD5620015869A /* CommonCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
