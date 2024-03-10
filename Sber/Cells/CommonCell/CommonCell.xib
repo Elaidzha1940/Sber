@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="i1n-OZ-fgV">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="i1n-OZ-fgV" customClass="CommonCell" customModule="Sber" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="155" height="155"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="jIP-Bj-4Ob">
@@ -19,45 +19,54 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qBC-IU-VZU">
-                        <rect key="frame" x="0.0" y="0.0" width="35" height="44"/>
+                        <rect key="frame" x="10" y="10" width="35" height="35"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="35" id="YWs-Sh-7lJ"/>
-                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="35" id="oBN-aQ-ydP"/>
-                            <constraint firstAttribute="height" constant="44" id="rqp-Oy-laj"/>
+                            <constraint firstAttribute="height" constant="35" id="4o2-iw-rao"/>
+                            <constraint firstAttribute="width" constant="35" id="V2k-mC-2YY"/>
                         </constraints>
                     </imageView>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S15-Na-Qw0">
                         <rect key="frame" x="125" y="10" width="20" height="20"/>
                         <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="65G-Il-76C"/>
                             <constraint firstAttribute="width" constant="20" id="WNP-tm-Y34"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="20" id="kbW-JU-5JE"/>
                             <constraint firstAttribute="height" constant="20" id="xRm-nj-XN5"/>
                         </constraints>
                         <color key="tintColor" systemColor="systemGrayColor"/>
                         <state key="normal" title="Button"/>
                         <buttonConfiguration key="configuration" style="plain" image="xmark" catalog="system"/>
                     </button>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lue-Qb-aCi">
-                        <rect key="frame" x="0.0" y="80" width="145" height="64"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lue-Qb-aCi">
+                        <rect key="frame" x="10" y="80" width="135" height="67"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="145" id="8t8-rO-DJj"/>
-                            <constraint firstAttribute="height" constant="64" id="zCF-Tq-VzH"/>
+                            <constraint firstAttribute="width" constant="135" id="5j5-6g-oVT"/>
+                            <constraint firstAttribute="height" constant="67" id="Hc0-kx-msO"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
+                <color key="backgroundColor" red="0.22574965529999999" green="0.43944630959999997" blue="0.4976727762" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                 <constraints>
-                    <constraint firstAttribute="trailing" secondItem="Lue-Qb-aCi" secondAttribute="trailing" constant="10" id="AZm-q0-rP5"/>
-                    <constraint firstItem="Lue-Qb-aCi" firstAttribute="top" secondItem="qBC-IU-VZU" secondAttribute="bottom" constant="36" id="UJm-k1-0wi"/>
-                    <constraint firstAttribute="bottom" secondItem="Lue-Qb-aCi" secondAttribute="bottom" constant="11" id="VRO-tc-u3a"/>
-                    <constraint firstItem="S15-Na-Qw0" firstAttribute="top" secondItem="jIP-Bj-4Ob" secondAttribute="top" constant="10" id="Vfd-w4-G3C"/>
-                    <constraint firstAttribute="trailing" secondItem="S15-Na-Qw0" secondAttribute="trailing" constant="10" id="evw-ht-s5P"/>
-                    <constraint firstItem="Lue-Qb-aCi" firstAttribute="leading" secondItem="jIP-Bj-4Ob" secondAttribute="leading" id="icd-us-XgU"/>
-                    <constraint firstItem="qBC-IU-VZU" firstAttribute="top" secondItem="jIP-Bj-4Ob" secondAttribute="top" id="jYc-ud-MHU"/>
-                    <constraint firstItem="qBC-IU-VZU" firstAttribute="leading" secondItem="jIP-Bj-4Ob" secondAttribute="leading" id="jZd-KT-FZd"/>
+                    <constraint firstItem="S15-Na-Qw0" firstAttribute="top" secondItem="jIP-Bj-4Ob" secondAttribute="top" constant="10" id="0AU-OV-hAw"/>
+                    <constraint firstAttribute="trailing" secondItem="S15-Na-Qw0" secondAttribute="trailing" constant="10" id="2fp-Pv-7Vk"/>
+                    <constraint firstItem="qBC-IU-VZU" firstAttribute="top" secondItem="jIP-Bj-4Ob" secondAttribute="top" constant="10" id="4qK-09-19h"/>
+                    <constraint firstAttribute="bottom" secondItem="Lue-Qb-aCi" secondAttribute="bottom" constant="8" id="Gko-WV-IlB"/>
+                    <constraint firstItem="Lue-Qb-aCi" firstAttribute="leading" secondItem="jIP-Bj-4Ob" secondAttribute="leading" constant="10" id="I46-DB-JdZ"/>
+                    <constraint firstAttribute="trailing" secondItem="Lue-Qb-aCi" secondAttribute="trailing" constant="10" id="K6N-Oi-PSL"/>
+                    <constraint firstItem="Lue-Qb-aCi" firstAttribute="top" secondItem="qBC-IU-VZU" secondAttribute="bottom" constant="35" id="NQZ-0H-y5z"/>
+                    <constraint firstItem="qBC-IU-VZU" firstAttribute="leading" secondItem="jIP-Bj-4Ob" secondAttribute="leading" constant="10" id="SQY-Kl-VZD"/>
                 </constraints>
             </collectionViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="iconImageView" destination="qBC-IU-VZU" id="UhE-3I-fZK"/>
+                <outlet property="textLabel" destination="Lue-Qb-aCi" id="jvy-N8-Nh3"/>
+                <outlet property="xmarButton" destination="S15-Na-Qw0" id="aqz-tb-2EQ"/>
+            </connections>
             <point key="canvasLocation" x="35.877862595419849" y="-36.267605633802816"/>
         </collectionViewCell>
     </objects>

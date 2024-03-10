@@ -27,6 +27,8 @@
                                     <constraint firstAttribute="height" constant="70" id="QKR-wL-9fs"/>
                                     <constraint firstAttribute="width" constant="90" id="vNM-Ro-ZVV"/>
                                 </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="titleShadowOffset" width="-5" height="5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                             </button>
@@ -37,6 +39,7 @@
                                     <constraint firstAttribute="width" constant="90" id="OKW-Bl-NZT"/>
                                     <constraint firstAttribute="height" constant="70" id="z4b-Pc-tdS"/>
                                 </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                             </button>

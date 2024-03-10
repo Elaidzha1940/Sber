@@ -36,7 +36,7 @@ extension ViewController: UICollectionViewDataSource {
             return cell
         default:
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CommonCell", for: indexPath) as! CommonCell
-            cell.configure(icon: UIImage(systemName: "applewatch"), text: "Stories came out!")
+            cell.configure(icon: UIImage(systemName: "visionpro"), text: "Can I see someone's story here?")
             return cell
         }
     }

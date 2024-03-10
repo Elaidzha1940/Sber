@@ -20,6 +20,14 @@ class ButtonCell: UICollectionViewCell {
         bottomButton.setImage(bottomImage, for: .normal)
     }
     
+    //    func configure(topImage: UIImage?, bottomImage: UIImage?) {
+    //        let resizedTopImage = topImage?.resized(to: CGSize(width: 40, height: 40))
+    //        let resizedBottomImage = bottomImage?.resized(to: CGSize(width: 40, height: 40))
+    //
+    //        topButton.setImage(resizedTopImage, for: .normal)
+    //        bottomButton.setImage(resizedBottomImage, for: .normal)
+    //    }
+    
     //MARK: - View lifecycle
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -28,3 +36,11 @@ class ButtonCell: UICollectionViewCell {
     }
 }
 
+//extension UIImage {
+//    func resized(to newSize: CGSize) -> UIImage? {
+//        UIGraphicsBeginImageContextWithOptions(newSize, false, 0.0)
+//        defer { UIGraphicsEndImageContext() }
+//        self.draw(in: CGRect(origin: .zero, size: newSize))
+//        return UIGraphicsGetImageFromCurrentImageContext()
+//    }
+//}
