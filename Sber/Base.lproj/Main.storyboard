@@ -15,43 +15,13 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="kIr-on-TTq">
-                                <rect key="frame" x="0.0" y="99" width="393" height="155"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="155" id="k92-p6-FXN"/>
-                                    <constraint firstAttribute="height" constant="155" id="sGq-sS-lTy"/>
-                                </constraints>
-                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="m0s-Tb-YH1">
-                                    <size key="itemSize" width="128" height="128"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells/>
-                            </collectionView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.1150082385612015" green="0.43527671199151519" blue="0.37336788983295194" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="kIr-on-TTq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7le-xU-7tu"/>
-                            <constraint firstItem="kIr-on-TTq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Cml-ID-sh9"/>
-                            <constraint firstItem="kIr-on-TTq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WVD-xA-F9x"/>
-                            <constraint firstItem="kIr-on-TTq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="XMJ-yv-d8U"/>
-                            <constraint firstItem="kIr-on-TTq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cMo-aN-ys0"/>
-                            <constraint firstItem="kIr-on-TTq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gRb-1O-84r"/>
-                            <constraint firstItem="kIr-on-TTq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="iIz-Rm-zTN"/>
-                            <constraint firstItem="kIr-on-TTq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="paI-AW-Bac"/>
-                        </constraints>
+                        <color key="backgroundColor" red="0.22574965529999999" green="0.43944630959999997" blue="0.4976727762" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <connections>
-                        <outlet property="collectionView" destination="kIr-on-TTq" id="wsa-3F-44F"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-218" y="5"/>
+            <point key="canvasLocation" x="-11" y="0.0"/>
         </scene>
     </scenes>
 </document>

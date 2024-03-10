@@ -54,6 +54,8 @@
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
+                <color key="backgroundColor" red="0.22574965529999999" green="0.43944630959999997" blue="0.4976727762" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
                     <constraint firstItem="ivS-Ut-rJH" firstAttribute="leading" secondItem="tqE-Wa-U8q" secondAttribute="leading" constant="10" id="5lc-AT-gwV"/>
                     <constraint firstAttribute="bottom" secondItem="xMv-Wp-XNs" secondAttribute="bottom" id="AGN-i7-c1c"/>
@@ -65,6 +67,8 @@
                     <constraint firstAttribute="trailing" secondItem="g6H-DL-c9I" secondAttribute="trailing" constant="10" id="yfK-zC-blW"/>
                 </constraints>
             </collectionViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="tintColor" red="0.22574965529999999" green="0.43944630959999997" blue="0.4976727762" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
             <connections>
                 <outlet property="iconImageView" destination="ivS-Ut-rJH" id="rPK-2v-9mQ"/>
                 <outlet property="textLabel" destination="xMv-Wp-XNs" id="u9a-yJ-VK7"/>

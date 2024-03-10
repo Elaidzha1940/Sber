@@ -24,6 +24,6 @@ class CommonCell: UICollectionViewCell {
     //MARK: - View lificycle
     override func awakeFromNib() {
         super.awakeFromNib()
-        //
+        contentView.layer.cornerRadius = 15
     }
 }
