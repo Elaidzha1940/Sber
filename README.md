@@ -1,4 +1,4 @@
-Sber.
+Bank - Sber.
 =====
 
 https://github.com/Elaidzha1940/Sber/assets/64445918/54ffb67e-06df-437a-91af-a79a8ec99584
