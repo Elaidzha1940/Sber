@@ -1,11 +1,11 @@
 Bank - Sber.
 =====
 
-https://github.com/Elaidzha1940/Sber/assets/64445918/54ffb67e-06df-437a-91af-a79a8ec99584
-
+CollectionView utilizes UIKit with xib files for elegant cell customization
 -----
 
-CollectionView utilizes UIKit with xib files for elegant cell customization
+https://github.com/Elaidzha1940/Sber/assets/64445918/54ffb67e-06df-437a-91af-a79a8ec99584
+
 -----
 
 - CollectionView: Efficiently displays information.
